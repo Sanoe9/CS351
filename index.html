@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World Clock</title>
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="index.js"></script>
+</head>
+<body>
+  <div class="app-container">
+
+    <!-- View Toggle -->
+    <div class="tabs">
+      <button id="tab-clock" class="tab active">🕰 Clock</button>
+      <button id="tab-list" class="tab">📋 List</button>
+    </div>
+
+    <!-- Clock View -->
+    <div id="clock-view" class="view active">
+      <div class="analog-clock">
+        <div class="clock-face">
+          <div class="hand hour" id="hour-hand"></div>
+          <div class="hand minute" id="minute-hand"></div>
+          <div class="hand second" id="second-hand"></div>
+        </div>
+      </div>
+      <div class="clock-info">
+        <h2 id="clock-city">City</h2>
+        <div id="clock-time" class="clock-time">00:00 AM</div>
+        <div class="clock-country" id="clock-country">Country</div>
+      </div>
+    </div>
+
+    <!-- List View -->
+    <div id="list-view" class="view">
+      <div class="timezone-selector">
+        <select id="timezone-select">
+          <option value="">-- Select a timezone --</option>
+        </select>
+        <button id="add-location-btn">Add</button>
+      </div>
+      <div id="time-list" class="time-list"></div>
+    </div>
+  </div>
+</body>
+</html>
