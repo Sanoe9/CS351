@@ -6,22 +6,22 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+}
   
-  .app-container {
+.app-container {
     width: 320px;
     background: #f9faff;
     border-radius: 20px;
     padding: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-  }
+}
   
-  .header {
+.header {
     display: flex;
     justify-content: space-between;
-  }
+}
   
-  .add-btn, .edit-btn {
+.add-btn, .edit-btn {
     background: #e91e63;
     color: white;
     border: none;
@@ -30,123 +30,123 @@ body {
     height: 35px;
     font-size: 20px;
     cursor: pointer;
-  }
+}
   
-  .edit-btn {
+.edit-btn {
     background: #f0f0f0;
     color: black;
-  }
+}
   
-  .tabs {
+.tabs {
     display: flex;
     justify-content: space-around;
     margin: 15px 0;
-  }
+}
   
-  .tab {
+.tab {
     background: none;
     border: none;
     font-size: 16px;
     cursor: pointer;
     padding-bottom: 5px;
-  }
+}
   
-  .tab.active {
+.tab.active {
     border-bottom: 2px solid #e91e63;
-  }
+}
   
-  .view {
+.view {
     display: none;
-  }
+}
   
-  .view.active {
+.view.active {
     display: block;
-  }
+}
   
-  /* Analog Clock */
-  .analog-clock {
+/* Analog Clock */
+.analog-clock {
     display: flex;
     justify-content: center;
     margin: 20px 0;
-  }
+}
   
-  .clock-face {
+.clock-face {
     width: 150px;
     height: 150px;
     border: 5px solid #f1f1f1;
     border-radius: 50%;
     position: relative;
     background: white;
-  }
+}
   
-  .hand {
+.hand {
     position: absolute;
     bottom: 50%;
     left: 50%;
     background: #e91e63;
     transform-origin: bottom center;
     transform: rotate(90deg);
-  }
+}
   
-  .hour {
+.hour {
     height: 40px;
     width: 4px;
-  }
+}
   
-  .minute {
+.minute {
     height: 55px;
     width: 3px;
-  }
+}
   
-  .second {
+.second {
     height: 65px;
     width: 2px;
     background: #000;
-  }
+}
   
-  .clock-info {
+.clock-info {
     text-align: center;
-  }
+}
   
-  .clock-time {
+.clock-time {
     font-size: 24px;
     font-weight: bold;
     margin-top: 10px;
-  }
+}
   
-  .clock-country {
+.clock-country {
     color: gray;
     font-size: 14px;
-  }
+}
   
-  /* List View */
-  .timezone-selector {
+/* List View */
+.timezone-selector {
     display: flex;
     margin-bottom: 10px;
     gap: 10px;
-  }
+}
   
-  #timezone-select {
+#timezone-select {
     flex-grow: 1;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-  }
+}
   
-  #add-location-btn {
+#add-location-btn {
     padding: 5px 10px;
     background-color: #e91e63;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
   
-  .time-list {
+.time-list {
     margin-top: 10px;
-  }
+}
   
-  .time-item {
+.time-item {
     display: flex;
     align-items: center;
     background: #f3f3f3;
@@ -154,13 +154,13 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
     cursor: pointer;
-  }
+}
   
-  .time-info {
+.time-info {
     margin-left: 10px;
-  }
+}
   
-  .location {
+.location {
     font-weight: bold;
-  }
+}
   
